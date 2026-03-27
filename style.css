@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    background-color: aquamarine;
+}
+.modeleOSI{
+    
+}
+.app{
+    display: flex;
+    border: 10px saddlebrown;
+    background-color: rgb(250, 231, 215);
+}
+.TCP{
+    margin-left: 100px;
+    width: 300px;
+    height: 400px;
+    /* margin-top: 100px; */
+    background-color: blueviolet;
+    
+}
+.fleche{
+    font-size: 60px;
+    animation: ADA 3s linear infinite;
+    position: relative;
+
+}
+@keyframes ADA {
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 100%;
+    }
+}
+h1{
+    border: rebeccapurple;
+    background-color: brown;
+    border-radius: 10px;
+    position: relative;
+    animation:  FAYE 3s linear infinite;
+}
+@keyframes FAYE {
+    0%{
+        background-color: rgb(77, 235, 72);
+    }
+    50%{
+        background-color: rgb(209, 230, 28);
+    }
+    100%{
+        background-color: rgb(196, 14, 14);
+    }
+
+}
